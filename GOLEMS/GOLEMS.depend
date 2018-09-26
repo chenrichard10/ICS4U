@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1537464031 source:c:\users\chenp\desktop\projects\c++ projects\golems\main.cpp
+	<iostream>
+	<iostream>
+	<cstdlib>
+	<ctime>
+
