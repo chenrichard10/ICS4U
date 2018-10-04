@@ -1,0 +1,5 @@
+﻿  Golems2.cpp
+c:\users\chenp\source\repos\golems2\golems2\golems2.cpp(33): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\chenp\source\repos\golems2\golems2\golems2.cpp(73): warning C4129: ' ': unrecognized character escape sequence
+c:\users\chenp\source\repos\golems2\golems2\golems2.cpp(82): warning C4129: ' ': unrecognized character escape sequence
+  Golems2.vcxproj -> C:\Users\chenp\source\repos\Golems2\Debug\Golems2.exe
