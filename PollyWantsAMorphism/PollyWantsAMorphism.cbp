@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PollyWantsAMorphism" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PollyWantsAMorphism" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PollyWantsAMorphism" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Citizen.h" />
+		<Unit filename="include/Dwarf.h" />
+		<Unit filename="include/Human.h" />
+		<Unit filename="include/Nobbs.h" />
+		<Unit filename="include/Troll.h" />
+		<Unit filename="include/Vampire.h" />
+		<Unit filename="include/Werewolf.h" />
+		<Unit filename="include/Wolf.h" />
+		<Unit filename="include/Zombie.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Citizen.cpp" />
+		<Unit filename="src/Dwarf.cpp" />
+		<Unit filename="src/Human.cpp" />
+		<Unit filename="src/Nobbs.cpp" />
+		<Unit filename="src/Troll.cpp" />
+		<Unit filename="src/Vampire.cpp" />
+		<Unit filename="src/Werewolf.cpp" />
+		<Unit filename="src/Wolf.cpp" />
+		<Unit filename="src/Zombie.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
