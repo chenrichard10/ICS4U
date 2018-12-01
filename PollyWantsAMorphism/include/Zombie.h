@@ -5,10 +5,11 @@
 class Zombie:public Human
 {
     public:
-        Zombie(string name, string species, string currency);
+        Zombie(string name, string species);
         virtual ~Zombie();
         void payTaxes();
         void Speak();
+        void Thank();
     protected:
 
     private:

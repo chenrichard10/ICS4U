@@ -1,14 +1,20 @@
 #include "Wolf.h"
+#include "Citizen.h"
 #include <iostream>
-Wolf::Wolf(string name, string species, string currency)
+Wolf::Wolf(string name, string species)
 {
-Name=name;
-Species=species;
-Currency=currency;
-cout<<"A "<<Species<<" has appeared!"<<endl;
+    Species = species;
+    Name = name;
+    if (species != "Werewolf")
+    {
+        cout << "A wolf named " << Name << " has appeared." << endl;
+    }
 }
 
 Wolf::~Wolf()
 {
-cout<<"A "<<Species<<" has died;"<<endl;
+    if (Species == "Wolf")
+    {
+        cout << Name << " has died." << endl;
+    }
 }

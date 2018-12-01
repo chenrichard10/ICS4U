@@ -1,70 +1,74 @@
 # depslib dependency file v1.0
-1542298147 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\dwarf.cpp
+1543418723 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\dwarf.cpp
 	"Dwarf.h"
 	<iostream>
 
-1542298147 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\dwarf.h
+1543355444 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\dwarf.h
 	"Citizen.h"
 	<string>
 
-1542648603 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\human.cpp
+1543418714 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\human.cpp
 	"Human.h"
 	"Citizen.h"
 	<iostream>
 
-1542648603 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\human.h
+1543355302 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\human.h
 	"Citizen.h"
 	<string>
 
-1542300408 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\nobbs.cpp
+1543418713 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\nobbs.cpp
 	"Nobbs.h"
 	<iostream>
 
-1542299863 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\nobbs.h
+1543355495 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\nobbs.h
 	"Human.h"
 
-1542297784 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\troll.cpp
+1543418713 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\troll.cpp
 	"Troll.h"
 	<iostream>
 
-1542297809 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\troll.h
+1543355540 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\troll.h
 	"Citizen.h"
 	<string>
 
-1542300691 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\vampire.cpp
+1543418712 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\vampire.cpp
 	"Vampire.h"
 	<iostream>
 
-1542300610 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\vampire.h
+1543355538 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\vampire.h
 	"Human.h"
 	<string>
 
-1542389112 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\werewolf.cpp
+1543418682 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\werewolf.cpp
 	"Werewolf.h"
 	<iostream>
 
-1542388562 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\werewolf.h
+1543355620 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\werewolf.h
 	"Human.h"
 	"Wolf.h"
 	<string>
 
-1542647382 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\wolf.cpp
+1543418676 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\wolf.cpp
 	"Wolf.h"
+	"Citizen.h"
 	<iostream>
 
-1542648615 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\wolf.h
+1542743035 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\wolf.h
+	"Citizen.h"
 	<string>
 
-1542301695 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\zombie.cpp
+1543418675 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\zombie.cpp
 	"Zombie.h"
 	<iostream>
 
-1542301647 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\zombie.h
+1543355635 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\zombie.h
 	"Human.h"
 	<string>
 
-1542648603 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\main.cpp
+1543355832 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\main.cpp
 	<iostream>
+	<cstdlib>
+	<vector>
 	"Citizen.h"
 	"Wolf.h"
 	"Human.h"
@@ -74,11 +78,14 @@
 	"Vampire.h"
 	"Zombie.h"
 	"Werewolf.h"
-
-1542215998 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\citizen.h
+	<algorithm>
+	<ctime>
 	<string>
 
-1542215676 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\citizen.cpp
+1543420765 c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\include\citizen.h
+	<string>
+
+1543420725 source:c:\users\chenp\desktop\projects\c++ projects\pollywantsamorphism\src\citizen.cpp
 	"Citizen.h"
 	<iostream>
 

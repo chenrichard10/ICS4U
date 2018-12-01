@@ -1,19 +1,23 @@
 #include "Troll.h"
 #include <iostream>
-Troll::Troll(string TrollName,string species,string currency):Citizen(TrollName,species,currency)
+Troll::Troll(string TrollName, string species) : Citizen(TrollName, species)
 {
-cout<<citizenName <<" has been created. It is a "<<citizenSpecies<<endl;
 }
 
 Troll::~Troll()
 {
-cout<<citizenName<<" has died" <<endl;
 }
 
-void Troll::payTaxes(){
+void Troll::payTaxes()
+{
     // now outputs variables from Citizen.cpp
-    cout<<citizenName<<" has paid his/her taxes in "<<citizenCurrency<<endl;
+    cout << citizenName << " has paid his/her taxes in gems" << endl;
 }
-void Troll::Speak(){
-cout<<citizenName<< " says Hi"<< endl;
+void Troll::Speak()
+{
+    cout << citizenName << " speaks: Get off my bridge!" << endl;
+}
+void Troll::Thank()
+{
+    cout << citizenName << " appreciates the kind gesture.";
 }

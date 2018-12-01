@@ -1,24 +1,31 @@
 #include "Werewolf.h"
 #include <iostream>
 
-Werewolf::Werewolf(string citizenName,string species,string currency):Human(citizenName,species,currency),Wolf(citizenName,species,currency)
+Werewolf::Werewolf(string wolfName, string species) : Human(wolfName, species), Wolf(wolfName, species)
 {
-   cout<<"Meow I'm a werewolf"<<endl;
 }
 
 Werewolf::~Werewolf()
 {
-    cout<<"OOF I died"<<endl;
 }
 void Werewolf::payTaxes()
 {
-    cout<<"I paid my taxes"<<endl;
+    //curent errrors
+    cout << citizenName << " has paid his taxes" << endl;
+}
+void Werewolf::Speak()
+{
+    cout << citizenName << " begins to to speak: I've acquired the bad qualities of both species..." << endl;
 }
 void Werewolf::Growl()
 {
-    cout<<"GRRRRRRRRRRRRRR"<<endl;
+    cout << citizenName << "'s mouth is trying to say something: GRRRRRRRRRRRRRR" << endl;
 }
 void Werewolf::Howl()
 {
-    cout<<"AWOOOOOOOOOOOO"<<endl;
+    cout << citizenName << "'s mouth is trying to say something: AWOOOOOOOOOOOO" << endl;
+}
+void Werewolf::Thank()
+{
+    cout << citizenName << " appreciates the kind gesture.";
 }

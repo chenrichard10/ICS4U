@@ -6,10 +6,11 @@
 class Dwarf:public Citizen
 {
     public:
-        Dwarf(string dwarfName, string species, string currency);
+        Dwarf(string dwarfName, string species);
         virtual ~Dwarf();
         void payTaxes();
         void Speak();
+        void Thank();
     protected:
 
     private:

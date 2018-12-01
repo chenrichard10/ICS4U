@@ -3,13 +3,14 @@
 #include "Human.h"
 #include <string>
 using namespace std;
-class Vampire:Human
+class Vampire:public Human
 {
     public:
-        Vampire(string name, string species, string currency);
+        Vampire(string name, string species);
         virtual ~Vampire();
         void payTaxes();
         void Speak();
+        void Thank();
     protected:
 
     private:

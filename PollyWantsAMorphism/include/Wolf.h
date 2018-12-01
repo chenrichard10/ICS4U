@@ -1,12 +1,13 @@
 #ifndef WOLF_H
 #define WOLF_H
+#include "Citizen.h"
 #include <string>
 using namespace std;
 
 class Wolf
 {
     public:
-        Wolf(bool isHuman,string name, string species, string currency);
+        Wolf(string name, string species);
         virtual ~Wolf();
 
     protected:
@@ -15,7 +16,6 @@ class Wolf
     private:
         string Name;
         string Species;
-        string Currency;
 };
 
 #endif // WOLF_H

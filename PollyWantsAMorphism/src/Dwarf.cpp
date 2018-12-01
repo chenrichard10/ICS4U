@@ -1,18 +1,21 @@
 #include "Dwarf.h"
 #include <iostream>
-Dwarf::Dwarf(string dwarfName, string species, string currency):Citizen(dwarfName,species,currency)
+Dwarf::Dwarf(string dwarfName, string species) : Citizen(dwarfName, species)
 {
-    cout<<citizenName <<" has been created. It is a "<<citizenSpecies<<endl;
 }
 
 Dwarf::~Dwarf()
 {
-    cout<<citizenName<<" has died" <<endl;
 }
-void Dwarf::payTaxes(){
-    // now outputs variables from Citizen.cpp
-    cout<<citizenName<<" has paid his/her taxes in "<<citizenCurrency<<endl;
+void Dwarf::payTaxes()
+{
+    cout << citizenName << " has paid his/her taxes in gold." << endl;
 }
-void Dwarf::Speak(){
-cout<<citizenName<< " says Hi"<< endl;
+void Dwarf::Speak()
+{
+    cout << citizenName << " speaks:I am very small." << endl;
+}
+void Dwarf::Thank()
+{
+    cout << citizenName << " appreciates the kind gesture.";
 }

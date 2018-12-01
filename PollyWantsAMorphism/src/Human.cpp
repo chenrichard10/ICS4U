@@ -1,23 +1,21 @@
 #include "Human.h"
 #include "Citizen.h"
 #include <iostream>
-// first parentheses declares the variables into constructor, second passes it into Citizen constructor
-Human::Human(bool isHuman,string citizenName,string species,string currency):Citizen(citizenName,species,currency)
+Human::Human(string humanName, string species) : Citizen(humanName, species)
 {
-    isHuman=true;
-    if(isHuman){
-    cout<<citizenName <<" has been created. It is a "<<citizenSpecies<<endl;
-    }
 }
 Human::~Human()
 {
-    cout<<citizenName<<" has died" <<endl;
 }
-void Human::payTaxes(){
-    // now outputs variables from Citizen.cpp
-    cout<<citizenName<<" has paid his/her taxes in "<<citizenCurrency<<endl;
+void Human::payTaxes()
+{
+    cout << citizenName << " has paid his/her taxes in dollars. " << endl;
 }
-void Human::Speak(){
-cout<<citizenName<< " says Hi"<< endl;
+void Human::Speak()
+{
+    cout << citizenName << " speaks: Hi everyone!" << endl;
 }
-
+void Human::Thank()
+{
+    cout << citizenName << " appreciates the kind gesture.";
+}
