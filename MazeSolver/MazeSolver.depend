@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1544548322 source:c:\users\chenp\desktop\projects\c++ projects\mazesolver\main.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	<fstream>
+	<vector>
+	<list>
+	<queue>
+
