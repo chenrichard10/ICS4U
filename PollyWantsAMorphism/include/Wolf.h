@@ -9,13 +9,14 @@ class Wolf
     public:
         Wolf(string name, string species);
         virtual ~Wolf();
+         void howl();
+         void growl();
 
     protected:
-       string Howl();
-       string Growl();
+
     private:
-        string Name;
-        string Species;
+        string wolfName;
+        string wolfSpecies;
 };
 
 #endif // WOLF_H

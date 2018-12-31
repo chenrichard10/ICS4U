@@ -8,8 +8,8 @@ class Zombie:public Human
         Zombie(string name, string species);
         virtual ~Zombie();
         void payTaxes();
-        void Speak();
-        void Thank();
+        void speak();
+        void thank();
     protected:
 
     private:

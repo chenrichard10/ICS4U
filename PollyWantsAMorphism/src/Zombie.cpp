@@ -11,11 +11,11 @@ void Zombie::payTaxes()
 {
     cout << citizenName << " has paid his Taxes in dollars." << endl;
 }
-void Zombie::Speak()
+void Zombie::speak()
 {
     cout << citizenName << " has spoken:yum yum brains." << endl;
 }
-void Zombie::Thank()
+void Zombie::thank()
 {
     cout << citizenName << " appreciates the kind gesture.";
 }

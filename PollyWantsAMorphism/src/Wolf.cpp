@@ -3,18 +3,25 @@
 #include <iostream>
 Wolf::Wolf(string name, string species)
 {
-    Species = species;
-    Name = name;
+    wolfSpecies = species;
+    wolfName = name;
     if (species != "Werewolf")
     {
-        cout << "A wolf named " << Name << " has appeared." << endl;
+        cout << "A Wolf named " << wolfName << " has appeared." << endl;
     }
 }
-
 Wolf::~Wolf()
 {
-    if (Species == "Wolf")
+    if (wolfSpecies == "Wolf")
     {
-        cout << Name << " has died." << endl;
+        cout << wolfName << " has died." << endl;
     }
+}
+void Wolf::growl()
+{
+    cout << wolfName << "'s mouth is trying to say something: GRRRRRRRRRRRRRR" << endl;
+}
+void Wolf::howl()
+{
+    cout << wolfName << "'s mouth is trying to say something: AWOOOOOOOOOOOO" << endl;
 }

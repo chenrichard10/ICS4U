@@ -9,8 +9,8 @@ class Nobbs:public Human
         Nobbs(string name, string species);
         virtual ~Nobbs();
         void payTaxes();
-        void Speak();
-        void Thank();
+        void speak();
+        void thank();
     protected:
     private:
 };

@@ -9,13 +9,11 @@ using namespace std;
 class Werewolf: public Human,public Wolf
 {
     public:
-        Werewolf(string wolfName,string species);
+        Werewolf(string name,string species);
         virtual ~Werewolf();
-        void Speak();
-        void Howl();
-        void Growl();
+        void speak();
         void payTaxes();
-        void Thank();
+        void thank();
     protected:
 
     private:

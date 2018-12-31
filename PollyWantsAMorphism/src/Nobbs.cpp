@@ -11,11 +11,11 @@ void Nobbs::payTaxes()
 {
     cout << citizenName << " has paid his Taxes in dollars." << endl;
 }
-void Nobbs::Speak()
+void Nobbs::speak()
 {
     cout << citizenName << " begins to speak:Oi! I am Nobbs" << endl;
 }
-void Nobbs::Thank()
+void Nobbs::thank()
 {
     cout << citizenName << " appreciates the kind gesture.";
 }

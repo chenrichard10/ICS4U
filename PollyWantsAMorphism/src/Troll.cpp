@@ -1,6 +1,6 @@
 #include "Troll.h"
 #include <iostream>
-Troll::Troll(string TrollName, string species) : Citizen(TrollName, species)
+Troll::Troll(string name, string species) : Citizen(name, species)
 {
 }
 
@@ -13,11 +13,11 @@ void Troll::payTaxes()
     // now outputs variables from Citizen.cpp
     cout << citizenName << " has paid his/her taxes in gems" << endl;
 }
-void Troll::Speak()
+void Troll::speak()
 {
     cout << citizenName << " speaks: Get off my bridge!" << endl;
 }
-void Troll::Thank()
+void Troll::thank()
 {
     cout << citizenName << " appreciates the kind gesture.";
 }

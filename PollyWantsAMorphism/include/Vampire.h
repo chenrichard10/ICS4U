@@ -9,8 +9,8 @@ class Vampire:public Human
         Vampire(string name, string species);
         virtual ~Vampire();
         void payTaxes();
-        void Speak();
-        void Thank();
+        void speak();
+        void thank();
     protected:
 
     private:

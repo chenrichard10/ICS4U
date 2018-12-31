@@ -11,11 +11,11 @@ void Vampire::payTaxes()
 {
     cout << citizenName << " has paid his taxes in dollars" << endl;
 }
-void Vampire::Speak()
+void Vampire::speak()
 {
     cout << citizenName << " has spoken: I'm a spooky vampire. Be spooked. " << endl;
 }
-void Vampire::Thank()
+void Vampire::thank()
 {
     cout << citizenName << " appreciates the kind gesture.";
 }

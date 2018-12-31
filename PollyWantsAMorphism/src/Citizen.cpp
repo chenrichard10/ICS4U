@@ -1,10 +1,10 @@
 #include "Citizen.h"
 #include <iostream>
 
-Citizen::Citizen(string CitizenName, string Species)
+Citizen::Citizen(string name, string species)
 {
-    citizenName = CitizenName;
-    citizenSpecies = Species;
+    citizenName = name;
+    citizenSpecies = species;
     cout << "A " << citizenSpecies << " named " << citizenName << " has appeared." << endl;
 }
 Citizen::~Citizen()
@@ -15,6 +15,8 @@ Citizen::~Citizen()
 string Citizen::getName()
 {
     return citizenName;
+
+
 }
 //getSpecies function to access species names
 string Citizen::getSpecies()

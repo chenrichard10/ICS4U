@@ -1,6 +1,6 @@
 #include "Dwarf.h"
 #include <iostream>
-Dwarf::Dwarf(string dwarfName, string species) : Citizen(dwarfName, species)
+Dwarf::Dwarf(string name, string species) : Citizen(name, species)
 {
 }
 
@@ -11,11 +11,11 @@ void Dwarf::payTaxes()
 {
     cout << citizenName << " has paid his/her taxes in gold." << endl;
 }
-void Dwarf::Speak()
+void Dwarf::speak()
 {
     cout << citizenName << " speaks:I am very small." << endl;
 }
-void Dwarf::Thank()
+void Dwarf::thank()
 {
     cout << citizenName << " appreciates the kind gesture.";
 }

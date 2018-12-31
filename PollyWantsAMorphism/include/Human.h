@@ -7,11 +7,11 @@ using namespace std;
 class Human:public Citizen
 {
     public:
-        Human(string humanName,string species);
+        Human(string name,string species);
         virtual ~Human();
         void payTaxes();
-        void Speak();
-        void Thank();
+        void speak();
+        void thank();
     protected:
 
     private:

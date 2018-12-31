@@ -7,11 +7,11 @@ using namespace std;
 class Troll:public Citizen
 {
     public:
-        Troll(string TrollName,string species);
+        Troll(string name,string species);
         virtual ~Troll();
         void payTaxes();
-        void Speak();
-        void Thank();
+        void speak();
+        void thank();
     protected:
 
     private:
